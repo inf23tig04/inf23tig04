@@ -1,0 +1,186 @@
+<?xml version = "1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="corrida_de_pista">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="tipos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="sprint">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="distancias">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="recordes">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="meio_fundo">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="distancias">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="recordes">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="obstaculos">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="distancia" type = "xs:string"/>
+                                    <xs:element name="recordes">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="fundo">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="distancias">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                                <xs:element name = "distancia" type = "xs:string"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="recordes">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="recorde">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="prova" type="xs:string"/>
+                                                            <xs:element name="tempo" type="xs:string"/>
+                                                            <xs:element name="atleta" type="xs:string"/>
+                                                            <xs:element name="pais" type="xs:string"/>
+                                                            <xs:element name="data" type="xs:string"/>
+                                                            <xs:element name="local" type="xs:string"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

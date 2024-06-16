@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+
+    .italico {
+        font-style: italic;
+    }
+
+    #formMain {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    label {
+        width: 80px;
+        margin-right: 10px;
+    }
+
+    #input[type="submit"]{
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    /*Seletor de Pseudo-elemento*/
+    #pHist::first-letter {
+        font-size: x-large;
+    }
+
+
+    /*Estilos para a tabela de recordes. corridapista */
+
+    .trecordes {
+        border-color: #000000;
+        border-style: solid;
+        border-width: medium;
+    }
+
+    .trecordes th {
+        border: 1px solid #000000;
+    }
+
+    .trecordes td {
+        border: 1px solid #000000;
+    }
+
+    #threcordes {
+        background-color: #dfdfdf;
+        text-align: center;
+    }
+
+    #tbrecordes {
+        background-color: #a3a3a3;
+        color:#000000;
+        text-align: center;
+    }
+
+    #tfrecordes {
+        background-color: #dfdfdf;
+        height: 15px;
+        text-align: center;
+    }
+
+    /*---------------------------------*/
+
+
+    .navmain {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .navmain td {
+        text-align: center;
+        border: 1px solid #000000;
+        padding: 5px;
+        width: 25%;
+        border-collapse: collapse;
+
+    }
+
+    .navmain td img {
+        width: 20px;
+        height: auto;
+        margin-right: 5px;
+
+    }
+
+    .navmain td:hover{
+        background-color: #a9a9a9;
+    }
+    
+
+
+    /*Estilos para a lista de Modalidades. Main */
+    #listaM {
+        padding-left: 1;
+        margin: 1;
+        list-style-type: square;
+    }
+    /*---------------------------------*/
+
+    /*Estilos para listas de tipos de corrida. Main */
+    .tiposCorrida {
+        padding: 1;
+        margin: 0;
+    }
+    /*---------------------------------*/
+
+
+    /* Estilos para parte do Usain Bolt. Corrida Pista */
+    .UsainBolt {
+        display: flex;
+        flex: 1;
+        padding: 20px;
+    }
+
+    .textoUsain {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    #UsainBoltImg {
+        max-width: 300;
+        height: auto;
+        border: 3px groove;
+        border-color: #000000;
+    }
+
+    figcaption {
+        text-align: center;
+    }
+    /*---------------------------------*/
+
+}
+
+header {
+    background: #a9a9a9;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#Mainh {
+    background-image: url("../css/Imagens_css/main.png");
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+#CorridaPista {
+    background-image: url("../css/Imagens_css/Pista.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#Marcha {
+    background-image: url("../css/Imagens_css/Marcha.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#Salto {
+    background-image: url("../css/Imagens_css/Salto.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ArremessoLancamento{
+    background-image: url("../css/Imagens_css/lancamentoarremesso.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px;
+}
+
+
+/* Media querie telémovel */
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem 0;
+    }
+
+    body {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #UsainBoltImg {
+        width: 100px;
+        height: auto;
+    }
+
+    .UsainBolt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+}
