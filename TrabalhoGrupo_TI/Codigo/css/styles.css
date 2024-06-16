@@ -145,7 +145,7 @@ header {
 }
 
 #Mainh {
-    background-image: url("css/Imagens_css/main.png");
+    background-image: url("../css/Imagens_css/main.png");
     background-size: cover;
     background-position: center;
     color: #000000;
@@ -158,19 +158,19 @@ header {
 }
 
 #Marcha {
-    background-image: url("css/Imagens_css/Marcha.png");
+    background-image: url("../css/Imagens_css/Marcha.png");
     background-size: cover;
     background-position: center;
 }
 
 #Salto {
-    background-image: url("css/Imagens_css/Salto.png");
+    background-image: url("../css/Imagens_css/Salto.png");
     background-size: cover;
     background-position: center;
 }
 
 #ArremessoLancamento{
-    background-image: url("css/Imagens_css/lancamentoarremesso.png");
+    background-image: url("../css/Imagens_css/lancamentoarremesso.png");
     background-size: cover;
     background-position: center;
 }
