@@ -93,19 +93,10 @@ label {
     
 /*Estilos para a lista de Modalidades. Main */
 #listaM {
-    padding-left: 1;
-    margin: 1;
+    padding-left: 1rem;
     list-style-type: square;
 }
 /*---------------------------------*/
-
-/*Estilos para listas de tipos de corrida. Main */
-.tiposCorrida {
-    padding: 1;
-    margin: 0;
-}
-/*---------------------------------*/
-
 
 /* Estilos para parte do Usain Bolt. Corrida Pista */
 .UsainBolt {
@@ -120,7 +111,7 @@ label {
 }
 
 #UsainBoltImg {
-    max-width: 300;
+    max-width: 300px;
     height: auto;
     border: 3px groove;
     border-color: #000000;
