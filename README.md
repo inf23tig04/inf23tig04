@@ -4,8 +4,8 @@ Repositório para guardar o trabalho de grupo.
 
 ## Organização do repositório 
 
-- O código fonte está na pasta [codigo]().
-- Os capítulos do relatório estão na pasta [rel]().
+- O código fonte está na pasta [Codigo](https://github.com/inf23tig04/inf23tig04/tree/main/TrabalhoGrupo_TI/Codigo).
+- Os capítulos do relatório estão na pasta [rel](https://github.com/inf23tig04/inf23tig04/tree/main/rel).
 
 
 ## Relatório
