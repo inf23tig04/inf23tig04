@@ -152,7 +152,7 @@ header {
 }
 
 #CorridaPista {
-    background-image: url("css/Imagens_css/Pista.png");
+    background-image: url("../css/Imagens_css/Pista.png");
     background-size: cover;
     background-position: center;
 }
