@@ -1,3 +1,5 @@
+//Mudar a cor do elemento ao clicar
+
 var sumariosprint = document.getElementById("sumsprint");
 
 sumariosprint.addEventListener("click", function() {
