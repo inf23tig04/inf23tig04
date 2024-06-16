@@ -163,6 +163,12 @@ header {
     background-position: center;
 }
 
+#selo {
+    border: 0;
+    width: 88px;
+    height: 31px;
+}
+
 
 main {
     padding: 20px;
