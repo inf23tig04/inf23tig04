@@ -1,17 +1,14 @@
 # Repositório do trabalho de grupo
-***
 
 Repositório para guardar o trabalho de grupo.
 
 ## Organização do repositório 
-***
 
 -- O código fonte está na pasta [codigo]()
 -- Os capítulos do relatório estão na pasta [rel]()
 
 
 ## Relatório
-***
 
 ### Apresentação do projeto
 
@@ -30,7 +27,6 @@ Repositório para guardar o trabalho de grupo.
 - Capítulo IV : [Apresentação]()
 
 ## Equipa
-***
 
 - Rafael Ribeiro Morim Cabreira
 - António Filipe Sampaio Castro Ferreira
