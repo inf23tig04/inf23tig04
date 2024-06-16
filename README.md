@@ -4,8 +4,8 @@ Repositório para guardar o trabalho de grupo.
 
 ## Organização do repositório 
 
-O código fonte está na pasta [codigo]().
-Os capítulos do relatório estão na pasta [rel]().
+- O código fonte está na pasta [codigo]().
+- Os capítulos do relatório estão na pasta [rel]().
 
 
 ## Relatório
