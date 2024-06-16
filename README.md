@@ -16,15 +16,15 @@ Os capítulos do relatório estão na pasta [rel]().
 
 ### Interface com o utilizador
 
-- Capítulo II : [Interface com o utilizador]()
+- Capítulo II : [Interface com o utilizador](https://github.com/inf23tig04/inf23tig04/blob/main/rel/c2.md)
 
 ### Produto
 
-- Capítulo III : [Produto]()
+- Capítulo III : [Produto](https://github.com/inf23tig04/inf23tig04/blob/main/rel/c3.md)
 
 ### Apresentação
 
-- Capítulo IV : [Apresentação]()
+- Capítulo IV : [Apresentação](https://github.com/inf23tig04/inf23tig04/blob/main/rel/c4.md)
 
 ## Equipa
 
