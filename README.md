@@ -12,7 +12,7 @@ Os capítulos do relatório estão na pasta [rel]().
 
 ### Apresentação do projeto
 
-- Capítulo I: [Apresentação do projeto]()
+- Capítulo I: [Apresentação do projeto](https://github.com/inf23tig04/inf23tig04/blob/main/rel/c1.md)
 
 ### Interface com o utilizador
 
